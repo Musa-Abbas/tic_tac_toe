@@ -10,7 +10,7 @@ let currentPlayer = 'X'
 		$('#activity').text(res.activity)
 		$('#participents').text("Participants: "+res.participants)
 
-		$('#price').text("Cost: $"+Math.round((res.price*6) * 100) / 100)
+		$('#price').text("Cost: $"+Math.round((res.price*10) * 100) / 100)
 	}
 });
 
