@@ -48,9 +48,9 @@ function checkWin(player){
 	)
 		return true;
 	if (
-		$('#0_0').text === player &&
-		$('#1_0').text === player &&
-		$('#2_0').text === player
+		$('#0_0').text() === player &&
+		$('#1_0').text() === player &&
+		$('#2_0').text() === player
 	)
 		return true;
 	if (
